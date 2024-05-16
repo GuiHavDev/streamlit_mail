@@ -3,19 +3,19 @@ from langchain import PromptTemplate
 from langchain.llms import OpenAI
 
 template = """
-    Below is an email that may be poorly worded.
-    Your goal is to:
-    - Properly format the email
-    - Convert the input text to a specified tone
-    - Convert the input text to a specified dialect
+    En dessous est un mail mal formulé.
+    Ton but est de:
+    - Formater professionellement le mail
+    - Convertir le texte d'entrée dans un format spécifique
+    - Convertir le texte d'entrée dans un français spécifique
 
-    Here are some examples different Tones:
-    - Formal: We went to Barcelona for the weekend. We have a lot of things to tell you.
-    - Informal: Went to Barcelona for the weekend. Lots to tell you.  
+    Ici sont des exemple de formats spécifiques:
+    - Formel: Nous sommes allés à Barcelone pour le week-end. Nous avons énormément d'histoires à vous raconter.
+    - Informel: On était à Barcelone ce weekend. Plein de choses à te raconter.
 
-    Here are some examples of words in different dialects:
-    - American: French Fries, cotton candy, apartment, garbage, cookie, green thumb, parking lot, pants, windshield
-    - British: chips, candyfloss, flag, rubbish, biscuit, green fingers, car park, trousers, windscreen
+    Icic sont des exemple de mots dans différents dialectes:
+    - Français: Bavarder, Petit ami, Petite ami, Portable, Diner, Partie
+    - Québécois: Clavarder, Chum, Blonde, Cellulaire, Souper, Joute
 
     Example Sentences from each dialect:
     - American: I headed straight for the produce section to grab some fresh vegetables, like bell peppers and zucchini. After that, I made my way to the meat department to pick up some chicken breasts.
