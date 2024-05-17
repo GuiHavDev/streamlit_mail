@@ -21,12 +21,12 @@ template = """
     - Français: J'aime embrassé mon petit ami. Cela n’a pas de sens.
     - Québécois: J’aime frencher mon chum !. Ça a pas d’allure ! 
 
-    Please start the email with a warm introduction. Add the introduction if you need to.
+    S'il vous plait, commencez le mail avec une chaleureuse introduction. Ajoutez une indroduction si besoin.
     
-    Below is the email, tone, and dialect:
-    TONE: {tone}
-    DIALECT: {dialect}
-    EMAIL: {email}
+    En dessous, il y a le mail, le format et le dialecte:
+    Format: {tone}
+    Dialecte: {dialect}
+    Mail: {email}
     
     YOUR {dialect} RESPONSE:
 """
