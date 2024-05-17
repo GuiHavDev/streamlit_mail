@@ -64,22 +64,22 @@ openai_api_key = get_api_key()
 col1, col2 = st.columns(2)
 with col1:
     option_tone = st.selectbox(
-        'Which tone would you like your email to have?',
-        ('Formal', 'Informal'))
+        'Quel format aura votre mail?',
+        ('Formel', 'Informel'))
     
 with col2:
     option_dialect = st.selectbox(
-        'Which English Dialect would you like?',
-        ('American', 'British'))
+        'Quel dialecte aura votre mail?',
+        ('Français', 'Québécois'))
 
 def get_text():
-    input_text = st.text_area(label="Email Input", label_visibility='collapsed', placeholder="Your Email...", key="email_input")
+    input_text = st.text_area(label="Email Input", label_visibility='collapsed', placeholder="Votre mail...", key="email_input")
     return input_text
 
 email_input = get_text()
 
 if len(email_input.split(" ")) > 700:
-    st.write("Please enter a shorter email. The maximum length is 700 words.")
+    st.write("S'il vous plait, écrivez un mail plus court. Le maximun autorisé est de 700 mots.")
     st.stop()
 
 def update_text_with_example():
