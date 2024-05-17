@@ -83,16 +83,16 @@ if len(email_input.split(" ")) > 700:
     st.stop()
 
 def update_text_with_example():
-    print ("in updated")
-    st.session_state.email_input = "Sally I am starts work at yours monday from dave"
+    print ("En chargement ...")
+    st.session_state.email_input = "Vincent, je suis indisponible vendredi prochain."
 
-st.button("*See An Example*", type='secondary', help="Click to see an example of the email you will be converting.", on_click=update_text_with_example)
+st.button("*Regardez un exemple*", type='secondary', help="Cliquer pour voir un exemple de mail augmenté.", on_click=update_text_with_example)
 
-st.markdown("### Your Converted Email:")
+st.markdown("### Votre mail augmenté:")
 
 if email_input:
     if not openai_api_key:
-        st.warning('Please insert OpenAI API Key. Instructions [here](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key)', icon="⚠️")
+        st.warning('Ajoutez votre OpenAI API Key. Instruction [ici](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key)', icon="⚠️")
         st.stop()
 
     llm = load_LLM(openai_api_key=openai_api_key)
