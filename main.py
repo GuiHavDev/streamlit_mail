@@ -18,8 +18,8 @@ template = """
     - Québécois: Clavarder, Chum, Blonde, Cellulaire, Souper, Joute
 
     Exemple de phrases de chaque dialectes:
-    - Français: J'aime embrassé mon petit ami. Cela n’a pas de sens.
-    - Québécois: J’aime frencher mon chum !. Ça a pas d’allure ! 
+    - Français: J'aime embrassé mon petit ami. Cela n’a pas de sens. Démissioner de son poste. J'en ai marre de l'hiver!
+    - Québécois: J’aime frencher mon chum !. Ça a pas d’allure ! Accrocher ses patins.  Je suis tannée de l’hiver!
 
     S'il vous plait, commencez le mail avec une chaleureuse introduction. Ajoutez une indroduction si besoin.
     
