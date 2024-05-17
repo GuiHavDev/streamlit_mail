@@ -17,9 +17,9 @@ template = """
     - Français: Bavarder, Petit ami, Petite ami, Portable, Diner, Partie
     - Québécois: Clavarder, Chum, Blonde, Cellulaire, Souper, Joute
 
-    Example Sentences from each dialect:
-    - American: I headed straight for the produce section to grab some fresh vegetables, like bell peppers and zucchini. After that, I made my way to the meat department to pick up some chicken breasts.
-    - British: Well, I popped down to the local shop just the other day to pick up a few bits and bobs. As I was perusing the aisles, I noticed that they were fresh out of biscuits, which was a bit of a disappointment, as I do love a good cuppa with a biscuit or two.
+    Exemple de phrases de chaque dialectes:
+    - Français: J'aime embrassé mon petit ami. Cela n’a pas de sens.
+    - Québécois: J’aime frencher mon chum !. Ça a pas d’allure ! 
 
     Please start the email with a warm introduction. Add the introduction if you need to.
     
